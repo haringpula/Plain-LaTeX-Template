@@ -2,3 +2,6 @@ doc.bbl
 doc.blg
 doc.fdb_latexmk
 doc.fls
+doc.aux
+doc.out
+doc.synctex.gz
