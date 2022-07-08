@@ -1,4 +1,4 @@
-# Plain-LaTeX-Template-
+# Plain-LaTeX-Template
 
 A simple LaTeX Template for daily use. With support for various nifty things.
 
@@ -18,4 +18,6 @@ I've collected a bunch of TeX packages from various sources that are commonly us
 
 - **Super (nth)** and **TextComp** for nth superscripts and Trademarks/Copyright symbols
 
-- other packages included are *enum, mathptmx, microtype, geometry, parskip, linespread, nowidow, etc.*
+- Supports **TikZ**
+
+- other packages included are *xcolor, enum, mathptmx, microtype, geometry, parskip, linespread, nowidow, etc.*

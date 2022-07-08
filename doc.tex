@@ -15,12 +15,14 @@
 \usepackage{enumitem} % Includes lists
 \usepackage[super]{nth} % Include superscript for nth
 \usepackage{textcomp} % Include tms and copyright symbols
+\usepackage{xcolor} % Include text colorization
 
 \usepackage{fancyhdr}
 \renewcommand{\headrulewidth}{0pt}
 
 \linespread{1.2} % Set line space
 \usepackage[letterpaper, lmargin=0.1666\paperwidth, rmargin=0.1666\paperwidth, tmargin=0.1111\paperheight, bmargin=0.1111\paperheight]{geometry} %margins
+\setlength{\headheight}{14.5pt} % Setting head height to match header
 %\usepackage{parskip}
 
 \usepackage[all]{nowidow} % Tries to remove widows
@@ -29,17 +31,18 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \pagestyle{fancy} % Headers
-\lhead{King Red Sanchez}
-\chead{BSCS 4-1}
-\rhead{May 28, 2022}
+\lhead{Name}
+\chead{Section}
+\rhead{Date}
 
 \begin{document}
 \doublespacing % Set document spacing
 %-----------------------
 % Begin document
 %-----------------------
+\LaTeX
 
 
-\bibliographystyle{plain} 
-\bibliography{ref}
+%\bibliographystyle{plain}
+%\bibliography{ref}
 \end{document}
